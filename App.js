@@ -6,7 +6,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 const Stack = createStackNavigator();
 
 const HomeScreen = () => {
-  return {
+  return (
     <View style={styles.container}>
       <Text>Welcome to Home Screen!</Text>
     </View>
